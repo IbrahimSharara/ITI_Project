@@ -1,0 +1,77 @@
+﻿<link rel="stylesheet" href="~/css/Register.css" />
+
+<div class="container ">
+    
+    <form>
+
+        
+        <h2 class="text-center mb-4" style="color: #0056d2;"> 
+            <i class="fa-solid fa-keyboard"></i>    
+            Fill Your Application
+        </h2>
+        
+
+        <div class="row   " >	
+           <!--offset-xl-7-->
+          
+        
+            <div class="col-sm-6 form-group ">
+            <label for="name-f">First Name</label>
+            <input type="text" class="form-control" name="fname" id="name-f" placeholder="Enter your first name." required>
+
+        </div>
+            <div class="col-sm-6 form-group">
+            <label for="name-l">Last name</label>
+            <input type="text" class="form-control" name="lname" id="name-l" placeholder="Enter your last name." required>
+
+        </div>
+            <div class="col-sm-6 form-group ">
+            <label for="Date">Date Of Birth</label>
+            <input type="Date" name="dob" class="form-control" id="Date" placeholder="" required>
+        </div>
+            <div class="col-sm-6 form-group">
+            <label for="sex">Gender</label>
+            <select id="sex" class="form-control browser-default custom-select">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        </div>
+            <div class="col-sm-6 form-group">
+            <label for="year">Year</label>
+            <select id="year" class="form-control browser-default custom-select">
+            <option value="1st ">Frist Year</option>
+            <option value="2st">Second Year</option>
+            <option value="3st">Third Year</option>
+
+        </select>
+        </div>
+
+            <div class="col-sm-6 form-group">
+            <label for="pic">Upload your Picture</label>
+            <input type="file" accept="image/*" name="pic" class="form-control" id="pic"  required>
+        </div>
+
+            <div class="col-sm-6 form-group">
+            <label for="tel">Phone</label>
+            <input type="tel" name="phone" class="form-control" id="tel" placeholder="Enter Your Contact Number." required>
+
+        </div>
+
+            <div class="col-sm-6 form-group">
+            <label for="ftel">Father Phone</label>
+            <input type="tel" name="fphone" class="form-control" id="ftel" placeholder="Enter Your Father Number." required>
+
+        </div>
+        
+        
+
+            <div class="col-sm-12 form-group ">
+           <button id="submit" class="btn btn-primary offset-5 mt-4 mb-3">
+                <i class="fa-solid fa-check"></i>
+                Submit
+            </button>
+        </div>
+        
+        </div>
+    </form>
+</div>
