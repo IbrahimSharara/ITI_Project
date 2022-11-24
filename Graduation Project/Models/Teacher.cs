@@ -14,10 +14,10 @@ namespace El_Tamayez.Models
         public string LastName { get; set; }
         public string Description { get; set; }
         public TeacherGender Gender { get; set; }
-        public string Picture { get; set; }
-        public virtual List<Post> Posts { get; set; }
+        public string? Picture { get; set; }
+        public virtual List<Post>? Posts { get; set; }
 
-        public virtual List<Comment> Comments { get; set; }
+        public virtual List<Comment>? Comments { get; set; }
     }
     public enum TeacherGender
     {

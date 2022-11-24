@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Graduation Project.bundle.scp.css"
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GraduationProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GraduationProject.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Home\\css\\style.css",
@@ -17957,20 +17957,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GraduationProject.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Graduation Project.props",
-      "PackagePath": "build\\Graduation Project.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GraduationProject.props",
+      "PackagePath": "build\\GraduationProject.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Graduation Project.props",
-      "PackagePath": "buildMultiTargeting\\Graduation Project.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GraduationProject.props",
+      "PackagePath": "buildMultiTargeting\\GraduationProject.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Graduation Project.props",
-      "PackagePath": "buildTransitive\\Graduation Project.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GraduationProject.props",
+      "PackagePath": "buildTransitive\\GraduationProject.props"
     }
   ],
   "ElementsToRemove": []

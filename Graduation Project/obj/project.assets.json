@@ -2019,9 +2019,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\Graduation Project.csproj",
-      "projectName": "Graduation Project",
-      "projectPath": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\Graduation Project.csproj",
+      "projectUniqueName": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\GraduationProject.csproj",
+      "projectName": "GraduationProject",
+      "projectPath": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\GraduationProject.csproj",
       "packagesPath": "C:\\Users\\Sharara\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\obj\\",
       "projectStyle": "PackageReference",

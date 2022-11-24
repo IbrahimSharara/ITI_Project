@@ -14,11 +14,11 @@ namespace El_Tamayez.Models
         public string LastName { get; set; }
         public string Phone { get; set; }
         public StudentGender Gender { get; set; }
-        public string Picture { get; set; }
+        public string? Picture { get; set; }
         public Year Year { get; set; }
-        public virtual List<Post> Posts { get; set; }
+        public virtual List<Post>? Posts { get; set; }
 
-        public virtual List<Comment> Comments { get; set; }
+        public virtual List<Comment>? Comments { get; set; }
     }
     public enum Year
     {

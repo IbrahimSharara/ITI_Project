@@ -11,7 +11,7 @@ namespace El_Tamayez.Models
 
         [ForeignKey("Post")]
         public int postid { get; set; }
-        public Post Post { get; set; }
+        public Post? Post { get; set; }
         [ForeignKey("Student")]
         public int? StudentId { get; set; }
         public Student? Student { get; set; }

@@ -6,19 +6,19 @@ namespace El_Tamayez.Models
     {
         [ForeignKey("Student")]
         public int StudentId { get; set; }
-        public Student Student { get; set; }
+        public Student? Student { get; set; }
 
         [ForeignKey("Subject")]
         public int SubjectId { get; set; }
-        public Subject Subject { get; set; }
+        public Subject? Subject { get; set; }
 
         [ForeignKey("Teacher")]
         public int TeacherId { get; set; }
-        public Teacher Teacher { get; set; }
+        public Teacher? Teacher { get; set; }
 
         [ForeignKey("Group")]
         public int GroupId { get; set; }
-        public Group Group { get; set; }
+        public Group? Group { get; set; }
 
         public int Grade { get; set; }
 

@@ -8,7 +8,7 @@
         public string Phone { get; set; }
         public string FatherPhone { get; set; }
         public Gender Gender { get; set; }
-        public string Picture { get; set; }
+        public string? Picture { get; set; }
         public Year Year { get; set; }
     }
     public enum Gender

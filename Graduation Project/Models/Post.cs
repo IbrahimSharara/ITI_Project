@@ -14,7 +14,7 @@ namespace El_Tamayez.Models
         public string Content { get; set; }
         public string? Picture { get; set; }
 
-        public virtual List<Comment> Comments { get; set; }
+        public virtual List<Comment>? Comments { get; set; }
         [ForeignKey("Student")]
         public int? StudentId { get; set; }
         public Student? Student { get; set; }
@@ -30,8 +30,8 @@ namespace El_Tamayez.Models
 
 
         [ForeignKey("Group")]
-        public int GroupId { get; set; }
-        public Group Group { get; set; }
+        public int? GroupId { get; set; }
+        public Group? Group { get; set; }
     }
 
 }
