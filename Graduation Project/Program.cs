@@ -1,4 +1,5 @@
 using El_Tamayez.Models;
+using El_Tamayez.Repository;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,7 @@ builder.Services.AddDbContext<CenterDBContext>(
     n => 
     { n.UseSqlServer("Server=.;Database=ElTamayezDB;Trusted_Connection=True;"); }
     );
+builder.Services.AddScoped<IPostRepository , PostRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
