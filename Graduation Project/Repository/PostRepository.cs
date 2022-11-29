@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 namespace Graduation_Project.Repository;
 using Graduation_Project.Models;
-=======
-namespace El_Tamayez.Repository;
-using El_Tamayez.Models;
-using El_Tamayez.ViewModels;
+using Graduation_Project.ViewModels;
 using Microsoft.EntityFrameworkCore;
 
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
 public class PostRepository : IPostRepository
 {
     CenterDBContext db;

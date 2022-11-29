@@ -2,11 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 
-<<<<<<< HEAD
+
 namespace Graduation_Project.Models
-=======
-namespace El_Tamayez.Models
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
 {
     public class Register
     {

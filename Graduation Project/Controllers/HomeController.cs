@@ -1,10 +1,7 @@
-<<<<<<< HEAD
+
 ﻿using Graduation_Project.Models;
-=======
-﻿using El_Tamayez.Models;
 using Graduation_Project.Repository;
 using Graduation_Project.ViewModels;
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;

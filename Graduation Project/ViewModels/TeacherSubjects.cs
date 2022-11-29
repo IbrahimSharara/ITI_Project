@@ -1,6 +1,5 @@
-﻿using El_Tamayez.Models;
+﻿using Graduation_Project.Models;
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace Graduation_Project.ViewModels
 {
     public class TeacherSubjects

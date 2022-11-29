@@ -1,4 +1,4 @@
-namespace El_Tamayez.ViewModels;
+namespace Graduation_Project.ViewModels;
 public class GetPost
 {
     public int PostId { get; set; }

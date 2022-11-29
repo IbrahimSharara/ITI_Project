@@ -1,6 +1,6 @@
-using El_Tamayez.Models;
-using El_Tamayez.Repository;
-using El_Tamayez.ViewModels;
+using Graduation_Project.Models;
+using Graduation_Project.Repository;
+using Graduation_Project.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace El_Tamayez.Controllers

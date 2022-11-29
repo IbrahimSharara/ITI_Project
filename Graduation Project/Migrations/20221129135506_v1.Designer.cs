@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Graduation_Project.Migrations
 {
     [DbContext(typeof(CenterDBContext))]
-    [Migration("20221124182303_v3")]
-    partial class v3
+    [Migration("20221129135506_v1")]
+    partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,7 +24,7 @@ namespace Graduation_Project.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("El_Tamayez.Models.Admin", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Admin", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,7 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Admins");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Comment", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Comment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -89,7 +89,39 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Group", b =>
+            modelBuilder.Entity("Graduation_Project.Models.ContactUs", b =>
+                {
+                    b.Property<int?>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Id"), 1L, 1);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactUss");
+                });
+
+            modelBuilder.Entity("Graduation_Project.Models.Group", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -97,7 +129,7 @@ namespace Graduation_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("AdminId")
+                    b.Property<int?>("AdminId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreationTime")
@@ -118,7 +150,7 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Groups");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Post", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Post", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -133,7 +165,7 @@ namespace Graduation_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("GroupId")
+                    b.Property<int?>("GroupId")
                         .HasColumnType("int");
 
                     b.Property<int>("LikeCounter")
@@ -164,7 +196,7 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Posts");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Register", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Register", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -178,14 +210,16 @@ namespace Graduation_Project.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
@@ -197,12 +231,20 @@ namespace Graduation_Project.Migrations
                     b.Property<int>("Year")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("birthday")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("national_Id")
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("nvarchar(14)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Registers");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Student", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Student", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -210,16 +252,22 @@ namespace Graduation_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("FirstName")
+                    b.Property<string>("FatherPhone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
@@ -231,12 +279,20 @@ namespace Graduation_Project.Migrations
                     b.Property<int>("Year")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("birthday")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("national_Id")
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("nvarchar(14)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Students");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.StudentSubjectGroupTeacher", b =>
+            modelBuilder.Entity("Graduation_Project.Models.StudentSubjectGroupTeacher", b =>
                 {
                     b.Property<int>("StudentId")
                         .HasColumnType("int");
@@ -264,7 +320,7 @@ namespace Graduation_Project.Migrations
                     b.ToTable("StudentsSubjectsGroupsTeachers");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Subject", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Subject", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -272,10 +328,14 @@ namespace Graduation_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("AdminId")
+                    b.Property<int?>("AdminId")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -292,7 +352,7 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Subjects");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Teacher", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Teacher", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -306,38 +366,45 @@ namespace Graduation_Project.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Picture")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("sub_Id")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("sub_Id");
 
                     b.ToTable("Teachers");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Comment", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Comment", b =>
                 {
-                    b.HasOne("El_Tamayez.Models.Admin", "Admin")
+                    b.HasOne("Graduation_Project.Models.Admin", "Admin")
                         .WithMany("Comments")
                         .HasForeignKey("AdminId");
 
-                    b.HasOne("El_Tamayez.Models.Student", "Student")
+                    b.HasOne("Graduation_Project.Models.Student", "Student")
                         .WithMany("Comments")
                         .HasForeignKey("StudentId");
 
-                    b.HasOne("El_Tamayez.Models.Teacher", "Teacher")
+                    b.HasOne("Graduation_Project.Models.Teacher", "Teacher")
                         .WithMany("Comments")
                         .HasForeignKey("TeacherId");
 
-                    b.HasOne("El_Tamayez.Models.Post", "Post")
+                    b.HasOne("Graduation_Project.Models.Post", "Post")
                         .WithMany("Comments")
                         .HasForeignKey("postid")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -352,34 +419,30 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Teacher");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Group", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Group", b =>
                 {
-                    b.HasOne("El_Tamayez.Models.Admin", "Admin")
+                    b.HasOne("Graduation_Project.Models.Admin", "Admin")
                         .WithMany("Groups")
-                        .HasForeignKey("AdminId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AdminId");
 
                     b.Navigation("Admin");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Post", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Post", b =>
                 {
-                    b.HasOne("El_Tamayez.Models.Admin", "Admin")
+                    b.HasOne("Graduation_Project.Models.Admin", "Admin")
                         .WithMany("Posts")
                         .HasForeignKey("AdminId");
 
-                    b.HasOne("El_Tamayez.Models.Group", "Group")
+                    b.HasOne("Graduation_Project.Models.Group", "Group")
                         .WithMany("Posts")
-                        .HasForeignKey("GroupId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("GroupId");
 
-                    b.HasOne("El_Tamayez.Models.Student", "Student")
+                    b.HasOne("Graduation_Project.Models.Student", "Student")
                         .WithMany("Posts")
                         .HasForeignKey("StudentId");
 
-                    b.HasOne("El_Tamayez.Models.Teacher", "Teacher")
+                    b.HasOne("Graduation_Project.Models.Teacher", "Teacher")
                         .WithMany("Posts")
                         .HasForeignKey("TeacherId");
 
@@ -392,27 +455,27 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Teacher");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.StudentSubjectGroupTeacher", b =>
+            modelBuilder.Entity("Graduation_Project.Models.StudentSubjectGroupTeacher", b =>
                 {
-                    b.HasOne("El_Tamayez.Models.Group", "Group")
+                    b.HasOne("Graduation_Project.Models.Group", "Group")
                         .WithMany()
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("El_Tamayez.Models.Student", "Student")
+                    b.HasOne("Graduation_Project.Models.Student", "Student")
                         .WithMany()
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("El_Tamayez.Models.Subject", "Subject")
+                    b.HasOne("Graduation_Project.Models.Subject", "Subject")
                         .WithMany()
                         .HasForeignKey("SubjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("El_Tamayez.Models.Teacher", "Teacher")
+                    b.HasOne("Graduation_Project.Models.Teacher", "Teacher")
                         .WithMany()
                         .HasForeignKey("TeacherId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -427,18 +490,25 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Teacher");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Subject", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Subject", b =>
                 {
-                    b.HasOne("El_Tamayez.Models.Admin", "Admin")
+                    b.HasOne("Graduation_Project.Models.Admin", "Admin")
                         .WithMany("Subjects")
-                        .HasForeignKey("AdminId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AdminId");
 
                     b.Navigation("Admin");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Admin", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Teacher", b =>
+                {
+                    b.HasOne("Graduation_Project.Models.Subject", "subjects")
+                        .WithMany("Teachers")
+                        .HasForeignKey("sub_Id");
+
+                    b.Navigation("subjects");
+                });
+
+            modelBuilder.Entity("Graduation_Project.Models.Admin", b =>
                 {
                     b.Navigation("Comments");
 
@@ -449,24 +519,29 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Subjects");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Group", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Group", b =>
                 {
                     b.Navigation("Posts");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Post", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Post", b =>
                 {
                     b.Navigation("Comments");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Student", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Student", b =>
                 {
                     b.Navigation("Comments");
 
                     b.Navigation("Posts");
                 });
 
-            modelBuilder.Entity("El_Tamayez.Models.Teacher", b =>
+            modelBuilder.Entity("Graduation_Project.Models.Subject", b =>
+                {
+                    b.Navigation("Teachers");
+                });
+
+            modelBuilder.Entity("Graduation_Project.Models.Teacher", b =>
                 {
                     b.Navigation("Comments");
 

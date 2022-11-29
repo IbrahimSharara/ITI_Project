@@ -4,22 +4,15 @@ namespace Graduation_Project.Models
 {
     public class CenterDBContext:DbContext
     {
-        public CenterDBContext(DbContextOptions options) :base(options)
-        {
-
-        }
         public CenterDBContext()
         {
 
         }
-<<<<<<< HEAD
-=======
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public CenterDBContext(DbContextOptions options) :base(options)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-S9RDLNO\\MSSQLSERVER2;Database=ElTamayezDB;Trusted_Connection=True;");
+
         }
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<StudentSubjectGroupTeacher>()

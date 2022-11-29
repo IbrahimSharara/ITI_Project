@@ -87,7 +87,6 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Comments");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("Graduation_Project.Models.ContactUs", b =>
                 {
                     b.Property<int?>("Id")
@@ -95,25 +94,13 @@ namespace Graduation_Project.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Id"), 1L, 1);
-=======
-            modelBuilder.Entity("El_Tamayez.Models.ContactUs", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Message")
-<<<<<<< HEAD
                         .IsRequired()
-=======
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
@@ -132,11 +119,7 @@ namespace Graduation_Project.Migrations
                     b.ToTable("ContactUss");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("Graduation_Project.Models.Group", b =>
-=======
-            modelBuilder.Entity("El_Tamayez.Models.Group", b =>
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -514,26 +497,16 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Admin");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("Graduation_Project.Models.Teacher", b =>
                 {
                     b.HasOne("Graduation_Project.Models.Subject", "subjects")
-=======
-            modelBuilder.Entity("El_Tamayez.Models.Teacher", b =>
-                {
-                    b.HasOne("El_Tamayez.Models.Subject", "subjects")
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
                         .WithMany("Teachers")
                         .HasForeignKey("sub_Id");
 
                     b.Navigation("subjects");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("Graduation_Project.Models.Admin", b =>
-=======
-            modelBuilder.Entity("El_Tamayez.Models.Admin", b =>
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
                 {
                     b.Navigation("Comments");
 
@@ -561,20 +534,12 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Posts");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("Graduation_Project.Models.Subject", b =>
-=======
-            modelBuilder.Entity("El_Tamayez.Models.Subject", b =>
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
                 {
                     b.Navigation("Teachers");
                 });
 
-<<<<<<< HEAD
             modelBuilder.Entity("Graduation_Project.Models.Teacher", b =>
-=======
-            modelBuilder.Entity("El_Tamayez.Models.Teacher", b =>
->>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
                 {
                     b.Navigation("Comments");
 
