@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace El_Tamayez.Models
+namespace Graduation_Project.Models
 {
     public class Group
     {
@@ -11,7 +11,7 @@ namespace El_Tamayez.Models
         public virtual List<Post>? Posts{ get; set; }
 
         [ForeignKey("Admin")]
-        public int AdminId { get; set; }
+        public int? AdminId { get; set; }
         public Admin? Admin { get; set; }
     }
 }

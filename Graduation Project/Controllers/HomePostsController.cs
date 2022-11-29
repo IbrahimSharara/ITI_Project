@@ -1,5 +1,5 @@
-using El_Tamayez.Models;
-using El_Tamayez.Repository;
+using Graduation_Project.Models;
+using Graduation_Project.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace El_Tamayez.Controllers

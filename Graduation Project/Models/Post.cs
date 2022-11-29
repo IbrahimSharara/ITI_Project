@@ -1,12 +1,13 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace El_Tamayez.Models
+namespace Graduation_Project.Models
 {
     public class Post
     {
         public Post()
         {
             Comments = new List<Comment>();
+            //this.PostTime= DateTime.Now;
         }
         public int Id { get; set; }
         public DateTime PostTime { get; set; }

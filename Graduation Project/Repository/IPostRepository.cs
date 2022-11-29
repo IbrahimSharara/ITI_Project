@@ -1,6 +1,6 @@
-namespace El_Tamayez.Repository;
+namespace Graduation_Project.Repository;
 
-using El_Tamayez.Models;
+using Graduation_Project.Models;
 public interface IPostRepository
 {
     List<Post> GetAllPosts();

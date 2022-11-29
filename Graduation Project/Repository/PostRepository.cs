@@ -1,5 +1,5 @@
-namespace El_Tamayez.Repository;
-using El_Tamayez.Models;
+namespace Graduation_Project.Repository;
+using Graduation_Project.Models;
 public class PostRepository : IPostRepository
 {
     CenterDBContext db;

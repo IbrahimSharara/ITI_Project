@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace El_Tamayez.Models
+namespace Graduation_Project.Models
 {
     public class Account
     {

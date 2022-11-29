@@ -1,4 +1,4 @@
-﻿namespace El_Tamayez.Models
+﻿namespace Graduation_Project.Models
 {
     public class Admin
     {

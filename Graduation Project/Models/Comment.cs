@@ -1,9 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace El_Tamayez.Models
+namespace Graduation_Project.Models
 {
     public class Comment
     {
+        //public Comment()
+        //{
+        //    this.CommentTime= DateTime.Now;
+        //}
         //Submiter
         public int Id { get; set; }
         public string Content { get; set; }
