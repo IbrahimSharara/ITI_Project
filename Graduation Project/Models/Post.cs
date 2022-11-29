@@ -7,6 +7,7 @@ namespace El_Tamayez.Models
         public Post()
         {
             Comments = new List<Comment>();
+            //this.PostTime= DateTime.Now;
         }
         public int Id { get; set; }
         public DateTime PostTime { get; set; }

@@ -4,6 +4,10 @@ namespace El_Tamayez.Models
 {
     public class Comment
     {
+        //public Comment()
+        //{
+        //    this.CommentTime= DateTime.Now;
+        //}
         //Submiter
         public int Id { get; set; }
         public string Content { get; set; }
