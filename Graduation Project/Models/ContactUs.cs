@@ -1,7 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using System.ComponentModel.DataAnnotations;
 
 namespace Graduation_Project.Models
+=======
+using Microsoft.Build.Framework;
+using System.ComponentModel.DataAnnotations;
+
+namespace El_Tamayez.Models
+>>>>>>> 68eba0c44bb32fd5f02e09ca216dac8392b2062b
 {
     public class ContactUs
     {
