@@ -16,7 +16,7 @@ builder.Services.AddScoped<IContactusRepositry,ContactsusRepositry>();
 builder.Services.AddDbContext<CenterDBContext>
     (
         n => 
-    { n.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=ElTamayezDB;Trusted_Connection=True;"); }
+    { n.UseSqlServer("Server=.;Database=ElTamayezDB;Trusted_Connection=True;"); }
     );
 builder.Services.AddScoped<IRegister, RegisterRepository>();
 builder.Services.AddScoped<IContactUs, ContactUsRepository>();
