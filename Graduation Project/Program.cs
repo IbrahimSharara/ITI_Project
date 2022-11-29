@@ -1,4 +1,5 @@
 using El_Tamayez.Models;
+using Graduation_Project.Repository;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,9 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ISubjectRepositry, SubjectRepositry>();
+builder.Services.AddScoped<IStudentRepositry, StudentRepositry>();
+builder.Services.AddScoped<IRegisterRepositry, RegisterRepositry>();
+builder.Services.AddScoped<ITeacherRepositry, TeacherRepositry>();
+builder.Services.AddScoped<IContactusRepositry,ContactsusRepositry>();
 builder.Services.AddDbContext<CenterDBContext>(
     n => 
-    { n.UseSqlServer("Server=.;Database=ElTamayezDB;Trusted_Connection=True;"); }
+    { n.UseSqlServer("Server=DESKTOP-S9RDLNO\\MSSQLSERVER2;Database=ElTamayezDB;Trusted_Connection=True;"); }
     );
 var app = builder.Build();
 

@@ -73,7 +73,8 @@
                         <i class="fa-solid fa-user"></i>
                         Logout
                     </a>
-                </div>
+
+                  </div>
 
             </div>
         </nav>
@@ -92,6 +93,7 @@
 
     <div>
         @RenderBody()
+        @await RenderSectionAsync("Scripts", required: false)
 
     </div>
 

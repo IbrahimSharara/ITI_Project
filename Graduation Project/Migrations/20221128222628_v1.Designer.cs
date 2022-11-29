@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Graduation_Project.Migrations
 {
     [DbContext(typeof(CenterDBContext))]
-    [Migration("20221124141452_v1")]
+    [Migration("20221128222628_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,6 +89,37 @@ namespace Graduation_Project.Migrations
                     b.ToTable("Comments");
                 });
 
+            modelBuilder.Entity("El_Tamayez.Models.ContactUs", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactUss");
+                });
+
             modelBuilder.Entity("El_Tamayez.Models.Group", b =>
                 {
                     b.Property<int>("Id")
@@ -133,7 +164,7 @@ namespace Graduation_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("GroupId")
+                    b.Property<int?>("GroupId")
                         .HasColumnType("int");
 
                     b.Property<int>("LikeCounter")
@@ -178,25 +209,34 @@ namespace Graduation_Project.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Picture")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Year")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("birthday")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("national_Id")
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("nvarchar(14)");
 
                     b.HasKey("Id");
 
@@ -211,27 +251,40 @@ namespace Graduation_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("FirstName")
+                    b.Property<string>("FatherPhone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Picture")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Year")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("birthday")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("national_Id")
+                        .IsRequired()
+                        .HasMaxLength(14)
+                        .HasColumnType("nvarchar(14)");
 
                     b.HasKey("Id");
 
@@ -278,6 +331,9 @@ namespace Graduation_Project.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -309,20 +365,26 @@ namespace Graduation_Project.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Picture")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("sub_Id")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("sub_Id");
 
                     b.ToTable("Teachers");
                 });
@@ -375,9 +437,7 @@ namespace Graduation_Project.Migrations
 
                     b.HasOne("El_Tamayez.Models.Group", "Group")
                         .WithMany("Posts")
-                        .HasForeignKey("GroupId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("GroupId");
 
                     b.HasOne("El_Tamayez.Models.Student", "Student")
                         .WithMany("Posts")
@@ -442,6 +502,15 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Admin");
                 });
 
+            modelBuilder.Entity("El_Tamayez.Models.Teacher", b =>
+                {
+                    b.HasOne("El_Tamayez.Models.Subject", "subjects")
+                        .WithMany("Teachers")
+                        .HasForeignKey("sub_Id");
+
+                    b.Navigation("subjects");
+                });
+
             modelBuilder.Entity("El_Tamayez.Models.Admin", b =>
                 {
                     b.Navigation("Comments");
@@ -468,6 +537,11 @@ namespace Graduation_Project.Migrations
                     b.Navigation("Comments");
 
                     b.Navigation("Posts");
+                });
+
+            modelBuilder.Entity("El_Tamayez.Models.Subject", b =>
+                {
+                    b.Navigation("Teachers");
                 });
 
             modelBuilder.Entity("El_Tamayez.Models.Teacher", b =>

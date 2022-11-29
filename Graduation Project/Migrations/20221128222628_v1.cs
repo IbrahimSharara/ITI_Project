@@ -15,13 +15,29 @@ namespace Graduation_Project.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Name = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    Username = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(50)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Admins", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ContactUss",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    Subject = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Message = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ContactUss", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -30,13 +46,15 @@ namespace Graduation_Project.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FatherPhone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(11)", nullable: false),
+                    FatherPhone = table.Column<string>(type: "nvarchar(11)", nullable: false),
                     Gender = table.Column<int>(type: "int", nullable: false),
-                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Year = table.Column<int>(type: "int", nullable: false)
+                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Year = table.Column<int>(type: "int", nullable: false),
+                    birthday = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    national_Id = table.Column<string>(type: "nvarchar(14)", maxLength: 14, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -49,33 +67,19 @@ namespace Graduation_Project.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(11)", nullable: false),
+                    FatherPhone = table.Column<string>(type: "nvarchar(11)", nullable: false),
                     Gender = table.Column<int>(type: "int", nullable: false),
-                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Year = table.Column<int>(type: "int", nullable: false)
+                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Year = table.Column<int>(type: "int", nullable: false),
+                    birthday = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    national_Id = table.Column<string>(type: "nvarchar(14)", maxLength: 14, nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Students", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Teachers",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Gender = table.Column<int>(type: "int", nullable: false),
-                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Teachers", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -84,7 +88,7 @@ namespace Graduation_Project.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreationTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     AdminId = table.Column<int>(type: "int", nullable: false)
@@ -107,8 +111,9 @@ namespace Graduation_Project.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Year = table.Column<int>(type: "int", nullable: false),
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AdminId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -120,6 +125,29 @@ namespace Graduation_Project.Migrations
                         principalTable: "Admins",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.NoAction);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Teachers",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FirstName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Gender = table.Column<int>(type: "int", nullable: false),
+                    Picture = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    sub_Id = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Teachers", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Teachers_Subjects_sub_Id",
+                        column: x => x.sub_Id,
+                        principalTable: "Subjects",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -135,7 +163,7 @@ namespace Graduation_Project.Migrations
                     StudentId = table.Column<int>(type: "int", nullable: true),
                     TeacherId = table.Column<int>(type: "int", nullable: true),
                     AdminId = table.Column<int>(type: "int", nullable: true),
-                    GroupId = table.Column<int>(type: "int", nullable: false)
+                    GroupId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -149,8 +177,7 @@ namespace Graduation_Project.Migrations
                         name: "FK_Posts_Groups_GroupId",
                         column: x => x.GroupId,
                         principalTable: "Groups",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Posts_Students_StudentId",
                         column: x => x.StudentId,
@@ -305,12 +332,20 @@ namespace Graduation_Project.Migrations
                 name: "IX_Subjects_AdminId",
                 table: "Subjects",
                 column: "AdminId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Teachers_sub_Id",
+                table: "Teachers",
+                column: "sub_Id");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Comments");
+
+            migrationBuilder.DropTable(
+                name: "ContactUss");
 
             migrationBuilder.DropTable(
                 name: "Registers");
@@ -322,9 +357,6 @@ namespace Graduation_Project.Migrations
                 name: "Posts");
 
             migrationBuilder.DropTable(
-                name: "Subjects");
-
-            migrationBuilder.DropTable(
                 name: "Groups");
 
             migrationBuilder.DropTable(
@@ -332,6 +364,9 @@ namespace Graduation_Project.Migrations
 
             migrationBuilder.DropTable(
                 name: "Teachers");
+
+            migrationBuilder.DropTable(
+                name: "Subjects");
 
             migrationBuilder.DropTable(
                 name: "Admins");

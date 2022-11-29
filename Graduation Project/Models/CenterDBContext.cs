@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+ using Microsoft.EntityFrameworkCore;
 
 namespace El_Tamayez.Models
 {
@@ -15,7 +15,7 @@ namespace El_Tamayez.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.;Database=ElTamayezDB;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-S9RDLNO\\MSSQLSERVER2;Database=ElTamayezDB;Trusted_Connection=True;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,7 +31,9 @@ namespace El_Tamayez.Models
         public DbSet<Student> Students { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<StudentSubjectGroupTeacher> StudentsSubjectsGroupsTeachers { get; set; }
+        public DbSet<ContactUs> ContactUss { get; set; }
+
+         public DbSet<StudentSubjectGroupTeacher> StudentsSubjectsGroupsTeachers { get; set; }
 
 
 
