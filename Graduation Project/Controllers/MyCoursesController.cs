@@ -26,8 +26,8 @@ namespace El_Tamayez.Controllers
         {
             if(ModelState.IsValid)
             {
-                post.StudentId = 1;
-                post.GroupId = 1;
+                post.StudentId = 2;
+                post.GroupId = 2;
                 post.LikeCounter = 0;
                 post.PostTime = DateTime.Now;
                 postRepository.Insert(post);

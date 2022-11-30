@@ -11,10 +11,12 @@ namespace El_Tamayez.Controllers
     {
         IStudentRepositry _studentRepositry;
         IHostingEnvironment _environment;
-        public ProfileController(IStudentRepositry studentRepositry,IHostingEnvironment hosting)
+        IRegisterRepositry registerRepositry;
+        public ProfileController(IRegisterRepositry _register,IStudentRepositry studentRepositry,IHostingEnvironment hosting)
         {
             _environment = hosting;
             _studentRepositry = studentRepositry;
+            registerRepositry = _register;
         }
 
         public IActionResult Index()
@@ -75,7 +77,20 @@ namespace El_Tamayez.Controllers
                 Year = newRegister.Year,
                 Picture = imagename
             };
+                Register r = new Register()
+                {
+                    Phone = newRegister.Phone,
+                    FatherPhone = newRegister.FatherPhone,
+                    FirstName = newRegister.FirstName,
+                    birthday = newRegister.birthday,
+                    LastName = newRegister.LastName,
+                    national_Id = newRegister.national_Id,
+                    Gender = newRegister.Gender,
+                    Year = newRegister.Year,
+                    Picture = imagename
+                };
                 _studentRepositry.Update(newsts,sId);
+                registerRepositry.Update(r, sId);
                 return RedirectToAction("Index");
             }
             else

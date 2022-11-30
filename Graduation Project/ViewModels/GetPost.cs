@@ -8,4 +8,5 @@ public class GetPost
     public DateTime PostDate { get; set; }
     public string Content { get; set; }
     public int likes { get; set; }
+    
 }

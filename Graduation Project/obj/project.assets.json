@@ -9851,11 +9851,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Sharara\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Amr Magdy\\.nuget\\packages\\": {}
+>>>>>>> refs/remotes/origin/master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\GraduationProject.csproj",
       "projectName": "GraduationProject",
       "projectPath": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\GraduationProject.csproj",
@@ -9864,6 +9869,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sharara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Amr Magdy\\Desktop\\ITIProjectv2\\Graduation Project\\GraduationProject.csproj",
+      "projectName": "GraduationProject",
+      "projectPath": "C:\\Users\\Amr Magdy\\Desktop\\ITIProjectv2\\Graduation Project\\GraduationProject.csproj",
+      "packagesPath": "C:\\Users\\Amr Magdy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amr Magdy\\Desktop\\ITIProjectv2\\Graduation Project\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Amr Magdy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> refs/remotes/origin/master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9933,7 +9948,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> refs/remotes/origin/master
       }
     }
   }

@@ -231,7 +231,9 @@
                                             <th>Name</th>
                                             <th>Description</th>
                                             <th>Year</th>
+                                            <th>Image</th>
                                             <th>Actions</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -241,6 +243,9 @@
                                                 <td>@item.Name</td>
                                                 <td>@item.Description</td>
                                                 <td>@item.Year</td>
+                                                <td>
+                                                    <img src="~/images/@(item.Image)" class="img-thumbnail rounded mx-auto d-block" style="height :70px; width:100px" />
+                                                </td>
                                                 
                                                 <td>
                                                     <a asp-controller="Subject" asp-action="Edit" asp-route-Id="@item.Id" class="btn btn-primary">
