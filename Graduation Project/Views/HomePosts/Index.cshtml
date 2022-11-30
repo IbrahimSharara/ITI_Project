@@ -4,10 +4,9 @@
 <div class="container-fluid">
     <div class="row justify-content-lg-evenly">
 
-        <!-- =========Timeline======= -->
+<!-- =============================================Timeline========================================================== -->
         <div class="col-12 col-lg-9 pb-5">
             <div class="d-flex flex-column justify-content-center w-100 mx-auto" style="padding-top: 56px; max-width: 680px">
-
                 <!-- create post -->
                 <div class="bg-white p-3 mt-3 rounded border shadow">
                     <!-- avatar -->
@@ -21,7 +20,7 @@
                     </div>
                     <!-- create modal -->
                     <section class="post">
-                        <form action="#">
+                        <form asp-action="SaveInsert" asp-controller="HomePosts">
 
                             <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true"
                                  data-bs-backdrop="false">
@@ -51,15 +50,10 @@
                                                     <!-- Post Body -->
                                                     <div>
                                                         <!-- text -->
-                                                        <textarea cols="30" rows="5" class="form-control border-0" id="add-post"></textarea>
-
+                                                        <textarea cols="30" rows="5" class="form-control border-0" id="add-post" name="Content"></textarea>
                                                         <!-- Image -->
                                                         <img class="img-fluid rounded" id="result" />
-
                                                     </div>
-
-
-
                                                     <!-- options -->
                                                     <div class="d-flex justify-content-between border border-1 border-light rounded p-3 mt-3">
 
@@ -77,14 +71,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                             <!-- end -->
                                         </div>
                                         <!-- footer -->
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary w-100" data-bs-dismiss="modal" onclick="showPost()">
-                                                Post
-                                            </button>
+                                            <input type="submit" class="btn btn-primary w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -92,8 +83,6 @@
 
                         </form>
                     </section>
-
-
                 </div>
 
                 <!-- posts -->

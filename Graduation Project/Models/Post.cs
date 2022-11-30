@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace Graduation_Project.Models
 {
     public class Post
@@ -24,7 +23,6 @@ namespace Graduation_Project.Models
         public int? TeacherId { get; set; }
         public Teacher? Teacher { get; set; }
 
-
         [ForeignKey("Admin")]
         public int? AdminId { get; set; }
         public Admin? Admin { get; set; }
@@ -34,5 +32,4 @@ namespace Graduation_Project.Models
         public int? GroupId { get; set; }
         public Group? Group { get; set; }
     }
-
 }

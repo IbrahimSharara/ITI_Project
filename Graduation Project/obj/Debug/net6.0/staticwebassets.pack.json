@@ -5,6 +5,958 @@
       "PackagePath": "staticwebassets\\GraduationProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\assets\\fullimage1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fullimage1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\assets\\fullimage2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fullimage2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\assets\\fullimage3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fullimage3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\app.min.1.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\app.min.1.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\awesome-bootstrap-checkbox.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\awesome-bootstrap-checkbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\bootstrap-slider.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-slider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\chartist.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\chartist.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\color.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\color.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\dropzone.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\icons-2x.png",
+      "PackagePath": "staticwebassets\\Admin\\css\\icons-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\icons.png",
+      "PackagePath": "staticwebassets\\Admin\\css\\icons.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\ion.rangeSlider.skinModern.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\ion.rangeSlider.skinModern.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\jquery.fileupload.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\jquery.fileupload.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\jsgrid-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\jsgrid.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\jsgrid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\linea-arrow.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\linea-arrow.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\linea-basic.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\linea-basic.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\linea-ecommerce.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\linea-ecommerce.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\linea-elaboration.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\linea-elaboration.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\menu-light.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\menu-light.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\morris-0.4.3.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\morris-0.4.3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\nanoscroller.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\nanoscroller.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\select.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\select.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\summernote-bs3.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\summernote-bs3.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\summernote.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\sweetalert.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\tablesaw.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\tablesaw.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\toastr.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\waves.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\waves.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\weather-icons-wind.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\weather-icons-wind.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\weather-icons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\weather-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\wysihtml5.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\wysihtml5.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\css\\wysiwyg-color.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\wysiwyg-color.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\dist\\css\\tooltipster.bundle.min.css",
+      "PackagePath": "staticwebassets\\Admin\\dist\\css\\tooltipster.bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\dist\\js\\tooltipster.bundle.min.js",
+      "PackagePath": "staticwebassets\\Admin\\dist\\js\\tooltipster.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\dist\\sweetalert-dev.js",
+      "PackagePath": "staticwebassets\\Admin\\dist\\sweetalert-dev.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\dist\\sweetalert.css",
+      "PackagePath": "staticwebassets\\Admin\\dist\\sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.eot",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.svg",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.woff",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.woff2",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont3295.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-arrows-10.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-arrows-10.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-arrows-10.svg",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-arrows-10.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-arrows-10.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-arrows-10.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-arrows-10.woff",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-arrows-10.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-arrows-10d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-arrows-10d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-10.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-10.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-10.svg",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-10.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-10.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-10.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-10.woff",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-10.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-10d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-10d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-elaboration-10.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-elaboration-10.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-elaboration-10.svg",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-elaboration-10.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-elaboration-10.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-elaboration-10.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-elaboration-10.woff",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-elaboration-10.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-basic-elaboration-10d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-basic-elaboration-10d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-ecommerce-10.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-ecommerce-10.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-ecommerce-10.svg",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-ecommerce-10.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-ecommerce-10.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-ecommerce-10.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-ecommerce-10.woff",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-ecommerce-10.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\linea-ecommerce-10d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\linea-ecommerce-10d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\Admin\\font\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\Admin\\font\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\font\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\font\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\font\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\Admin\\font\\weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\font\\weathericons-regular-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\font\\weathericons-regular-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular-3.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular-4.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regular.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\glyphicons-halflings-regulard41d.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\avatar1.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\avatar2.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\avtar-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avtar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\avtar-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avtar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\avtar-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\avtar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\c2-p-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\c2-p-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\c3-p-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\c3-p-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\c4-p-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\c4-p-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\c5-p-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\c5-p-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\clear.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\clear.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\icons.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\icons.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\img-5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\img-6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\loading-new.gif",
+      "PackagePath": "staticwebassets\\Admin\\images\\loading-new.gif"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\pattern-navy.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\pattern-navy.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\images\\rain.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\rain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\img\\clear.html",
+      "PackagePath": "staticwebassets\\Admin\\img\\clear.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\img\\loading.html",
+      "PackagePath": "staticwebassets\\Admin\\img\\loading.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\img\\spr_toolbar_icons_r1.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\spr_toolbar_icons_r1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\img\\sprite-skin-modern.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\sprite-skin-modern.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\index.html",
+      "PackagePath": "staticwebassets\\Admin\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\accordion.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\advanced.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\advanced.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\alert-popup.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\alert-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\alerts.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\alerts.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\bootstrap-editable.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap-editable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\bootstrap3-wysihtml5.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap3-wysihtml5.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\c3\\c3.min.css",
+      "PackagePath": "staticwebassets\\Admin\\js\\c3\\c3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\c3\\c3.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\c3\\c3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\c3\\d3.v3.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\c3\\d3.v3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\chart_js-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chart_js-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\chartist-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chartist-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\chartist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chartist\\chartist.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\chartjs\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chartjs\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\custom-advanced-form.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom-advanced-form.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\custom-editable.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom-editable.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\custom-forms-wizard.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom-forms-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\data-tables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\data-tables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\data-tables\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\data-tables\\dataTables.responsive.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\data-tables\\dataTables.tableTools.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\data-tables\\dataTables.tableTools.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\data-tables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\data-tables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\data-tables\\tables-data.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\data-tables\\tables-data.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\dropzone.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\edit-table.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\edit-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\canvas-to-blob.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\canvas-to-blob.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\custom-upload.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\custom-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload-audio.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload-audio.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload-image.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload-image.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload-process.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload-process.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload-ui.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload-validate.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload-validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload-video.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload-video.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\jquery.iframe-transport.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\jquery.iframe-transport.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\load-image.all.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\load-image.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\tmpl.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\tmpl.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\file-upload\\widget.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\file-upload\\widget.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot\\curved-line-chart.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot\\curved-line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot\\jquery.flot.time.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\fullcalendar-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\fullcalendar\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\fullcalendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\gallery.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\gallery.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\index.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\input-mask\\jquery.inputmask.bundle.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\input-mask\\jquery.inputmask.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.bootstrap.wizard.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.bootstrap.wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.flot.axislabels.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.flot.axislabels.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.flot.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.flot.threshold.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.flot.threshold.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.flot.time.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.flot.time.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.maskedinput.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.maskedinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.nanoscroller.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.nanoscroller.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.simpleWeather.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.simpleWeather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jsgrid.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jsgrid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\jstree.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jstree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\mail-compose.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\mail-compose.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\mask-input.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\mask-input.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\moment-with-locales.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\morris-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\morris-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\morris_chart\\morris.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\morris_chart\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\morris_chart\\raphael-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\morris_chart\\raphael-2.1.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\pace.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\pace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\page-contact.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\page-contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\pie-chart.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\range-slider.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\range-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\select\\fancySelect.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select\\fancySelect.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\select\\select2.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\select\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\slider\\bootstrap-slider.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\slider\\bootstrap-slider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\sliders.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\sliders.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\sparkline-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\sparkline-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\summernote.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\sweet-alert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\sweet-alert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\t-alert.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\t-alert.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\table-jq.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\table-jq.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tablesaw-custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tablesaw-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tablesaw-init.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tablesaw-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tablesaw.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tablesaw.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tinymce.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tinymce.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\toastr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tooltipster-discovery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tooltipster-discovery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tooltipster-follower.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tooltipster-follower.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\tree-view.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\tree-view.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\validator.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\validator.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\waves.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\waves.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\wysihtml.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\wysihtml.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\wysihtml5-0.3.0.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\wysihtml5-0.3.0.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\js\\wysihtml5-0.3.0.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\wysihtml5-0.3.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\owl-carousel\\AjaxLoader.gif",
+      "PackagePath": "staticwebassets\\Admin\\owl-carousel\\AjaxLoader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\owl-carousel\\grabbing.png",
+      "PackagePath": "staticwebassets\\Admin\\owl-carousel\\grabbing.png"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\owl-carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Admin\\owl-carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\owl-carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Admin\\owl-carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\owl-carousel\\owl.theme.css",
+      "PackagePath": "staticwebassets\\Admin\\owl-carousel\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Admin\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\Admin\\tinymce\\tinymce.min.js"
+    },
+    {
       "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\Home\\css\\style.css",
       "PackagePath": "staticwebassets\\Home\\css\\style.css"
     },
@@ -9241,6 +10193,22 @@
       "PackagePath": "staticwebassets\\fontawesome-free-6.2.0-web\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\1652738301638.jpg",
+      "PackagePath": "staticwebassets\\images\\1652738301638.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\1665914022462.jpg",
+      "PackagePath": "staticwebassets\\images\\1665914022462.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\1d213c2d-ca52-4158-8c5b-1ef0cd123078.jpg",
+      "PackagePath": "staticwebassets\\images\\1d213c2d-ca52-4158-8c5b-1ef0cd123078.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\2dd825d2-4227-4a66-a131-c8a5625cdd5dnet-core-features.jpg",
+      "PackagePath": "staticwebassets\\images\\2dd825d2-4227-4a66-a131-c8a5625cdd5dnet-core-features.jpg"
+    },
+    {
       "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\arabic1.jpg",
       "PackagePath": "staticwebassets\\images\\arabic1.jpg"
     },
@@ -9251,6 +10219,10 @@
     {
       "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\chemestry.jpg",
       "PackagePath": "staticwebassets\\images\\chemestry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\ea7783d1-afa9-46ff-a0d3-0f54d31dd39dIMG-20220725-WA0009.jpg",
+      "PackagePath": "staticwebassets\\images\\ea7783d1-afa9-46ff-a0d3-0f54d31dd39dIMG-20220725-WA0009.jpg"
     },
     {
       "Id": "C:\\Users\\Sharara\\Desktop\\Grad Project\\Graduation Project\\Graduation Project\\wwwroot\\images\\english.jpg",

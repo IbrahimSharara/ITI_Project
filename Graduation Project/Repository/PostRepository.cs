@@ -1,7 +1,6 @@
 namespace Graduation_Project.Repository;
 using Graduation_Project.Models;
 using Graduation_Project.ViewModels;
-using Microsoft.EntityFrameworkCore;
 
 public class PostRepository : IPostRepository
 {
@@ -16,7 +15,7 @@ public class PostRepository : IPostRepository
     }
     public List<Post> GetAllPostsForAdmin()
     {
-        return db.Posts.Where(n => n.AdminId != null).ToList();
+        return db.Posts.Where(n => n.GroupId == 0 ).ToList();
     }
     public List<GetPost> GetPostForAdmin()
     {
