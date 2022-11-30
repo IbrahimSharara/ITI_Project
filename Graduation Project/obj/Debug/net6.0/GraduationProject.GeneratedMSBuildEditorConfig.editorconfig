@@ -8,145 +8,145 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Graduation_Project
 build_property.RootNamespace = Graduation_Project
-build_property.ProjectDir = C:\Users\Phathi\Desktop\Project\ITI_Project\Graduation Project\
+build_property.ProjectDir = C:\Users\Amr Magdy\Desktop\ITIProjectv2\Graduation Project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Phathi\Desktop\Project\ITI_Project\Graduation Project
+build_property.MSBuildProjectDirectory = C:\Users\Amr Magdy\Desktop\ITIProjectv2\Graduation Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/ContactUs/GetAllContatUsMessages.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/ContactUs/GetAllContatUsMessages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFVzXEdldEFsbENvbnRhdFVzTWVzc2FnZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Group/Add.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Group/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Group/Edit.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Group/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Group/GetAllGroups.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Group/GetAllGroups.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBcR2V0QWxsR3JvdXBzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Register/GetAllRegisteredStudents.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Register/GetAllRegisteredStudents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVnaXN0ZXJcR2V0QWxsUmVnaXN0ZXJlZFN0dWRlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Student/Add.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Student/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3R1ZGVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Student/Edit.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Student/GetAllStudents.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Student/GetAllStudents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3R1ZGVudFxHZXRBbGxTdHVkZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Subject/Add.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Subject/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViamVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Subject/Edit.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Subject/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViamVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Subject/GetAllSubjects.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Subject/GetAllSubjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViamVjdFxHZXRBbGxTdWJqZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Teacher/Add.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Teacher/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Teacher/Edit.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Teacher/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/Teacher/GetAllTeachers.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/Teacher/GetAllTeachers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxHZXRBbGxUZWFjaGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/HomePosts/Index.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/HomePosts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBvc3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Home/ContactUs.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Home/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Home/Index.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Home/Login.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Home/Register.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Home/_Sub.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Home/_Sub.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU3ViLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Home/_Teacher.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Home/_Teacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVGVhY2hlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/MyCourses/MyCourses.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/MyCourses/MyCourses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb3Vyc2VzXE15Q291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/MyCourses/MyGroup.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/MyCourses/MyGroup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb3Vyc2VzXE15R3JvdXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Profile/Edit.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Profile/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Profile/Index.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/_ViewImports.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/_ViewStart.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/Views/Shared/_Layout.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mpnft66g6k
 
-[C:/Users/Phathi/Desktop/Project/ITI_Project/Graduation Project/wwwroot/Home/lib/_Layout.cshtml]
+[C:/Users/Amr Magdy/Desktop/ITIProjectv2/Graduation Project/wwwroot/Home/lib/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxIb21lXGxpYlxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-hrt1vcf17u

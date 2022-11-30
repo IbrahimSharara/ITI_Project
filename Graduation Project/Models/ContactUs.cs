@@ -19,11 +19,11 @@ namespace Graduation_Project.Models
         [System.ComponentModel.DataAnnotations.Required]
         public string Email { get; set; }
         [MaxLength(100,ErrorMessage ="Subject not mor than 100 Char")]
-        [System.ComponentModel.DataAnnotations.Required]
+        [Required]
         public string Subject { get; set; }
 
         [MaxLength(500,ErrorMessage = "Message not mor than 500 Char")]
-        [System.ComponentModel.DataAnnotations.Required]
+        [Required]
 
         public string? Message { get; set; }
 

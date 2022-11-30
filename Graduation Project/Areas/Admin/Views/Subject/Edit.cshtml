@@ -228,7 +228,7 @@
                             </div>
                         </div>
                         <div class="panel-body">
-                            <form class="form-horizontal" method="post" role="form" asp-controller="Subject" asp-action="Edit">
+                            <form class="form-horizontal" method="post" role="form" asp-controller="Subject" asp-action="Edit" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <div class="col-lg-10">
                                         <input asp-for="Id" type="hidden">
@@ -256,6 +256,17 @@
                                         <select asp-for="Year" asp-items="Html.GetEnumSelectList<SubjectYear>()" class="form-control">
                                                 <option>--Select Year--</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-2 control-label">Picture</label>
+                                    <div class="col-lg-10">
+                                        <input type="file" name="File" asp-for="Image" class="form-control" accept="image/*" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <div class="col-lg-10">
+                                        <img src="~/images/@(Model.Image)" class="img-thumbnail rounded mx-auto d-block" style="height :70px; width:100px" />
                                     </div>
                                 </div>
 

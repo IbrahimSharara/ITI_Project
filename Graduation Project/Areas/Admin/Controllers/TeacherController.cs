@@ -61,13 +61,9 @@ namespace Graduation_Project.Areas.Admin.Controllers
         {
             if (ModelState.IsValid == true) 
             {
-                //var existingTeacher = ;
-                //string oldimg = existingTeacher.p;
-                //string oldpath = Path.Combine(env.WebRootPath, ("images"), oldimg);
+               
                 if (File != null)
                 {
-                    //System.IO.File.Delete(oldpath);
-
                     string path = Path.Combine(env.WebRootPath, ("images"), File.FileName);
 
                     using (var fileStream = new FileStream(path, FileMode.Create))
